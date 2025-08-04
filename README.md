@@ -11,8 +11,8 @@ Install the Dependencies needed
 pip install python-evtx xmltodict
 ````
 
-Then 
+Then run
 
 ```bash
-python evtx_log_cleaner.py -i path/to/input.evtx -o path/to/output.ndjson
+python cli_ver.py -i path/to/input.evtx -o path/to/output.ndjson
 ````
