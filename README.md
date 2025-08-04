@@ -1,6 +1,6 @@
-Extracts only key fields from EVTX logs (`EventID`, `Provider`, `TimeCreated`, and `Message`) into NDJSON format — making it easier to use command-line tools like `grep` or `jq`.
+Extracts only key fields from EVTX logs (`EventID`, `Provider`, `TimeCreated`, and `Message`) into NDJSON format, making it easier to use command-line tools like `grep` or `jq`.
 
-GUI version will be added very soon.
+GUI version will be added very VERY soon.
 
 ---
 
@@ -15,4 +15,9 @@ Then run
 
 ```bash
 python cli_ver.py -i path/to/input.evtx -o path/to/output.ndjson
+````
+To see the description run
+
+```bash
+python cli_ver.py --help
 ````
